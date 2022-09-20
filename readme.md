@@ -5,6 +5,7 @@ First download Git client: https://git-scm.com/downloads (at the top of the page
 When installing, leave all settings as default.
 
 Decide where the project is going to live on your PC. Let's say mine is D:/Games
+
 Open up Git Bash and type the following:
 (you can copy each line and middle-click to paste into the terminal)
 ```sh
