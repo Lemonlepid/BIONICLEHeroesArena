@@ -4,7 +4,7 @@
 First download Git client: https://git-scm.com/downloads (at the top of the page)
 When installing, leave all settings as default.
 
-Decide where the project is going to live on your PC. Let's say mine is D:/Games
+Decide where the project is going to live on your PC. Let's say mine is D:/Games. Make sure to use forward-slashes (/) in your paths, and if there are spaces, include the whole thing in quotes (e.g. "D:/My Games/New Folder/")
 
 Open up Git Bash and type the following:
 (you can copy each line and middle-click to paste into the terminal)
@@ -12,7 +12,7 @@ Open up Git Bash and type the following:
 cd D:/Games
 git clone https://github.com/Lemonlepid/BIONICLEHeroesArena.git
 ```
-Git will ask you to log in with your credentials. You will need a GitHub account for this.
+Git will eventually (when you make changes) ask you to log in with your credentials. You will need a GitHub account for this.
 
 When you clone, Git client is a bit outdated and may try to clone the "master" branch. Type the following to fix this:
 ```sh
